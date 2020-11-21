@@ -69,6 +69,7 @@ img {
   border-radius: 40px; 
   background-color: white;
   box-shadow: 3px 5px #000;
+  border-style:groove;
 }
 
 .slot:hover {
