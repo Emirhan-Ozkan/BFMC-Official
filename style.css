@@ -65,4 +65,12 @@ img {
  background-color: #171515;
 }
 
+.slot {
+  border-radius: 40px; 
+  background-color: white;
+  box-shadow: 3px 5px #000;
+}
 
+.slot:hover {
+  transform: scale(1.2) 
+}
