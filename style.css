@@ -39,7 +39,7 @@ button {
   box-shadow: 2px 2px #000;
   font-weight:100;
   text-shadow: 2px 2px #000;
-  color:white
+  border-style:groove
 }
 
 button:hover {
@@ -52,7 +52,6 @@ a {
 
 img {
   transition-duration: 0.2s;
-  
 }
 
 .thumbnail:hover {
@@ -60,23 +59,29 @@ img {
 }
 
 .logo {
- border-radius: 25px; 
- border: 5px solid;
- background-color: #171515;
+  border-radius: 25px; 
+  border: 5px solid;
+  background-color: #171515;
 }
 
 .slot {
-  border-radius: 40px; 
-  background-color: white;
-  box-shadow: 3px 5px #000;
+  border-radius: 45px; 
   border-style:groove;
+  background-color:lightgrey
 }
 
 .slot:hover {
-  transform: scale(1.2) 
+  box-shadow: 3px 5px #000;
+  transform: scale(1.2)      
 }
+
 .char:hover {
   box-shadow: 3px 5px #000;
-  border-style:groove;    
+  transform: scale(1.2)
+}
+
+.char { 
+  border-style:groove;  
   background-color: white
 }
+
