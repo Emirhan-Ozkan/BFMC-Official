@@ -75,3 +75,8 @@ img {
 .slot:hover {
   transform: scale(1.2) 
 }
+.char:hover {
+  box-shadow: 3px 5px #000;
+  border-style:groove;    
+  background-color: white
+}
